@@ -1,5 +1,16 @@
 # Portfolio — Fatoumata Sarr
 
+## 🔗 Liens en ligne
+
+| | |
+|---|---|
+| 🌐 **Portfolio** | [fifi-cyb.github.io/Portfolio](https://fifi-cyb.github.io/Portfolio/) |
+| 📘 **Book de réalisations** | [fifi-cyb.github.io/Portfolio/book.html](https://fifi-cyb.github.io/Portfolio/book.html) |
+| 📄 **CV (PDF)** | [fifi-cyb.github.io/Portfolio/CV_Fatoumata_Sarr.pdf](https://fifi-cyb.github.io/Portfolio/CV_Fatoumata_Sarr.pdf) |
+| 💼 **LinkedIn** | [linkedin.com/in/fatoumatassarr](https://www.linkedin.com/in/fatoumatassarr/) |
+
+---
+
 Site vitrine personnel en HTML/CSS/JS pur — aucune installation, aucun build, aucun compte
 Vercel nécessaire. Pensé pour être publié en un clic via **GitHub Pages**.
 
@@ -17,34 +28,3 @@ Vercel nécessaire. Pensé pour être publié en un clic via **GitHub Pages**.
    `https://FIFI-cyb.github.io/portfolio/`
 
 Aucune autre étape : pas de `npm install`, pas de build, pas de variable d'environnement.
-
-## ✏️ Avant de publier — à compléter
-
-Cherche le mot **"à compléter"** dans `index.html` (surligné en orange sur le site) :
-
-- [ ] **Formation précédente** (section Formation) — ton BTS / licence / autre.
-- [ ] **Niveau d'anglais** (section Langues).
-- [ ] **Centres d'intérêt** (section Langues & intérêts).
-- [ ] **Email de contact** (dans le footer, remplace `ton.email@exemple.com` par ta vraie adresse
-      — cherche `mailto:` dans `index.html`).
-- [ ] **Photo** — si tu veux remplacer le bloc "FS" par une vraie photo, remplace le `<div class="portrait">`
-      dans la section À propos par une balise `<img>` pointant vers une image que tu ajoutes dans le repo.
-- [ ] **Descriptions des projets GitHub** (SalesOps, Hôpital Pitié-Salpêtrière, MID-APP, Projet_Spe1) —
-      les descriptions actuelles sont génériques, personnalise-les avec le vrai contenu de chaque projet.
-
-## 🎨 Personnaliser les couleurs
-
-Tout se change dans `style.css`, tout en haut, dans `:root{ }` :
-
-```css
---accent: #FF5A36;   /* couleur d'accent (liens, boutons, highlights) */
---ink: #14181C;      /* texte principal / fond sombre */
---paper: #FAFAF7;    /* fond clair */
-```
-
-## 📱 Structure
-
-- Une seule page (`index.html`), sections ancrées : À propos, Expérience, Formation,
-  Compétences, Projets, Langues, Contact.
-- Responsive (mobile, tablette, desktop) — testé de 390px à 1440px de large.
-- Police display : *Fraunces* — police body : *Inter* — police mono (labels/données) : *IBM Plex Mono*.
